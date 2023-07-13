@@ -1,3 +1,46 @@
 body {
-    background-image: url('path/to/image.jpg');
-  }
+  background-image: url("media/spokey poster.jpg");
+  background-position: center;
+  background-size: 100% auto;
+}
+
+h1{
+    color: #fff;
+}
+
+.bottom-nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: linear-gradient(to bottom, transparent, #ffffff7c);
+  color: #1a191b;
+  text-align: center;
+  backdrop-filter: blur(10px);
+}
+
+.bottom-nav ul {
+  list-style: none;
+  margin: 20px;
+  padding: 0;
+}
+
+.bottom-nav li {
+  display: inline-block;
+  margin: 0 10px;
+  color: #000000;
+}
+
+.bottom-nav a {
+  color: #fff;
+  text-decoration: none;
+}
+
+.lyrics{
+    color: #fff;
+    font-size: 20px;
+    font-family: 'arial', sans-serif;
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 20px;
+
+}
